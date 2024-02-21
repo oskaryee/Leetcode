@@ -1,4 +1,2 @@
 # Leetcode
-Main focus: Python
-Secondary: Java 
-Third: C
+Python, Java, C
