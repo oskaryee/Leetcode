@@ -13,7 +13,7 @@ class Solution:
             loc += 1
             node = node.next
 
-        # If we only have one node we return None
+        # If we only have one node or we need to get rid of the head. 
         if loc < 0:
             return head.next
 
