@@ -12,7 +12,7 @@ class Solution:
         while fast and fast.next: # We only need to check the fast pointer...
             slow = slow.next
             fast = fast.next.next
-            if slow == fast:
+            if slow == fast:      # We dont check the val. Only the reference
                 return True
         
         return False
